@@ -1,0 +1,86 @@
+# ==============================================================================
+# EvidenceGain-X: Master Configuration
+# ==============================================================================
+
+seed: 42
+device: "cuda" # 'cuda' or 'cpu' (falls back to cpu if cuda unavailable)
+
+project:
+  name: "EvidenceGain-X"
+  version: "0.1.0"
+  description: "Counterfactual, Self-Verifying Next-Best Evidence Acquisition for Crop Disease Diagnosis"
+
+dataset:
+  name: "crop_disease_pilot"
+  crop: "tomato" # Primary target crop (selected after inspection)
+  classes:
+    - "early_blight"
+    - "late_blight"
+    - "septoria_leaf_spot"
+    - "healthy"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  manifest_dir: "data/manifests"
+  img_size: 224
+  batch_size: 16
+  num_workers: 0 # Windows safe
+  split_ratios:
+    train: 0.70
+    val: 0.15
+    test: 0.15
+  split_by: "source_case" # Leakage safe split: plant/case/source level
+
+classifier:
+  backbone: "resnet18" # Lightweight, reproducible, efficient for 4GB VRAM
+  pretrained: true
+  freeze_backbone: false
+  lr: 0.0003
+  weight_decay: 0.0001
+  epochs: 15
+  top_k: 3
+  temperature: 1.0 # Calibration temperature
+
+evidence:
+  candidate_types:
+    - "lesion_closeup"
+    - "leaf_underside"
+    - "stem_view"
+    - "symptom_text"
+    - "weather_context"
+  max_budget: 3 # Maximum evidence acquisition steps per episode
+  stopping_entropy_threshold: 0.35
+  stopping_margin_threshold: 0.70
+
+selector:
+  type: "evidence_gain_x" # 'b0_initial', 'b1_random', 'b2_fixed', 'b3_conf', 'b4_uncertainty', 'b5_gain', 'b6_gain_x'
+  weights:
+    alpha_sep: 1.0 # Hypothesis separation weight
+    beta_unc: 0.8  # Uncertainty reduction weight
+    gamma_diag: 1.2 # Expected diagnostic improvement weight
+    lambda_cost: 0.3 # Acquisition cost penalty
+    mu_risk: 0.5    # Evidence reliability risk penalty
+  hidden_dim: 128
+  lr: 0.0005
+  epochs: 20
+
+reliability:
+  blur_laplacian_threshold: 100.0 # Below this is considered blurry
+  brightness_min: 30.0
+  brightness_max: 230.0
+  relevance_threshold: 0.50
+
+verification:
+  contradiction_threshold: 0.40 # Divergence between expected and observed state update
+  confidence_penalty_factor: 0.50
+
+evaluation:
+  metrics:
+    - "accuracy"
+    - "macro_f1"
+    - "top_k_acc"
+    - "ece" # Expected Calibration Error
+    - "entropy_reduction"
+    - "budget_efficiency"
+    - "contradiction_rate"
+    - "rejection_rate"
+  output_dir: "results"

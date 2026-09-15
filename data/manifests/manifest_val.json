@@ -1,0 +1,1625 @@
+{
+  "version": "1.0.0",
+  "crop": "tomato",
+  "classes": [
+    "early_blight",
+    "late_blight",
+    "septoria_leaf_spot",
+    "healthy"
+  ],
+  "cases": [
+    {
+      "case_id": "tomato_early_blight_0013",
+      "plant_id": "plant_early_blight_005",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0013\\initial_view.jpg",
+      "initial_md5": "d4626572778a0edb9f25cab28a17f1e1",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0013\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0013\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0013\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_early_blight_0014",
+      "plant_id": "plant_early_blight_005",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0014\\initial_view.jpg",
+      "initial_md5": "33e7f117cef8efde08ddf73cdc11333a",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0014\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0014\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0014\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_early_blight_0015",
+      "plant_id": "plant_early_blight_005",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0015\\initial_view.jpg",
+      "initial_md5": "9d56b110b1973dce54ef7f63bb2d9584",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0015\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0015\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0015\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_early_blight_0001",
+      "plant_id": "plant_early_blight_001",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0001\\initial_view.jpg",
+      "initial_md5": "8f700500ca191f306e7fd5f160c411e1",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0001\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0001\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0001\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_early_blight_0002",
+      "plant_id": "plant_early_blight_001",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0002\\initial_view.jpg",
+      "initial_md5": "a0dbb8b5cd97659bc76ebb8a868ad61e",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0002\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0002\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0002\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_early_blight_0003",
+      "plant_id": "plant_early_blight_001",
+      "crop": "tomato",
+      "disease": "early_blight",
+      "initial_image_path": "data\\raw\\tomato_early_blight_0003\\initial_view.jpg",
+      "initial_md5": "7097bbefed7f8ab73d1c68c828d89693",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0003\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0003\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_early_blight_0003\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Concentric dark brown rings with chlorotic halo on lower leaves",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Warm 24-29C with heavy dew or frequent rain",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0010",
+      "plant_id": "plant_late_blight_004",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0010\\initial_view.jpg",
+      "initial_md5": "e3e9e7da043463027a18a560e4981da0",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0010\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0010\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0010\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0011",
+      "plant_id": "plant_late_blight_004",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0011\\initial_view.jpg",
+      "initial_md5": "685630dd2af58e1c322ef40412f2e128",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0011\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0011\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0011\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0012",
+      "plant_id": "plant_late_blight_004",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0012\\initial_view.jpg",
+      "initial_md5": "9c37c0f153afba0d7ab93c1c390f7446",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0012\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0012\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0012\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0004",
+      "plant_id": "plant_late_blight_002",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0004\\initial_view.jpg",
+      "initial_md5": "126e09904a48326d22af3518e9b433d4",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0004\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0004\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0004\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0005",
+      "plant_id": "plant_late_blight_002",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0005\\initial_view.jpg",
+      "initial_md5": "9e0ad39449d0ceae4cceeba07c297ebc",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0005\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0005\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0005\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_late_blight_0006",
+      "plant_id": "plant_late_blight_002",
+      "crop": "tomato",
+      "disease": "late_blight",
+      "initial_image_path": "data\\raw\\tomato_late_blight_0006\\initial_view.jpg",
+      "initial_md5": "cffe8ce0e7135075c447478b997bc4da",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0006\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0006\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_late_blight_0006\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Large irregular water-soaked pale to dark brown lesions with pale margin",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Cool 15-20C with high relative humidity (>90%)",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0007",
+      "plant_id": "plant_septoria_leaf_spot_003",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0007\\initial_view.jpg",
+      "initial_md5": "a98a8fb30600d2d48443727098eaad41",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0007\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0007\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0007\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0008",
+      "plant_id": "plant_septoria_leaf_spot_003",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0008\\initial_view.jpg",
+      "initial_md5": "a6a603c8f4158f398b264ea84cc8678c",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0008\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0008\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0008\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0009",
+      "plant_id": "plant_septoria_leaf_spot_003",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0009\\initial_view.jpg",
+      "initial_md5": "b139dff7235c36927ce32c9e428987d3",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0009\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0009\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0009\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0001",
+      "plant_id": "plant_septoria_leaf_spot_001",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0001\\initial_view.jpg",
+      "initial_md5": "f495887fabf5102ce7570c9c041ca52e",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0001\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0001\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0001\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0002",
+      "plant_id": "plant_septoria_leaf_spot_001",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0002\\initial_view.jpg",
+      "initial_md5": "5d8fa93224838b339f4b1023532614ee",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0002\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0002\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0002\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_septoria_leaf_spot_0003",
+      "plant_id": "plant_septoria_leaf_spot_001",
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "initial_image_path": "data\\raw\\tomato_septoria_leaf_spot_0003\\initial_view.jpg",
+      "initial_md5": "8c995bc22504d945b3ef81096a453981",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0003\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0003\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_septoria_leaf_spot_0003\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Multiple small circular spots (1-3mm) with dark borders and grey center",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Moderate 20-25C with prolonged leaf wetness",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0028",
+      "plant_id": "plant_healthy_010",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0028\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0028\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0028\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0028\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0029",
+      "plant_id": "plant_healthy_010",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0029\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0029\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0029\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0029\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0030",
+      "plant_id": "plant_healthy_010",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0030\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0030\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0030\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0030\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0037",
+      "plant_id": "plant_healthy_013",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0037\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0037\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0037\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0037\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0038",
+      "plant_id": "plant_healthy_013",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0038\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0038\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0038\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0038\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    },
+    {
+      "case_id": "tomato_healthy_0039",
+      "plant_id": "plant_healthy_013",
+      "crop": "tomato",
+      "disease": "healthy",
+      "initial_image_path": "data\\raw\\tomato_healthy_0039\\initial_view.jpg",
+      "initial_md5": "fb691f5d8856a057fbf90b370c9906a7",
+      "available_evidence": {
+        "lesion_closeup": {
+          "evidence_type": "lesion_closeup",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0039\\lesion_closeup.jpg",
+          "reliability_hint": 0.95,
+          "cost": 1.2,
+          "metadata": {
+            "view": "macro_crop",
+            "resolution": [
+              224,
+              224
+            ]
+          }
+        },
+        "leaf_underside": {
+          "evidence_type": "leaf_underside",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0039\\leaf_underside.jpg",
+          "reliability_hint": 0.9,
+          "cost": 1.5,
+          "metadata": {
+            "view": "abaxial_surface"
+          }
+        },
+        "stem_view": {
+          "evidence_type": "stem_view",
+          "modality": "image",
+          "data_path_or_content": "data\\raw\\tomato_healthy_0039\\stem_view.jpg",
+          "reliability_hint": 0.85,
+          "cost": 1.8,
+          "metadata": {
+            "view": "petiole_stem"
+          }
+        },
+        "symptom_text": {
+          "evidence_type": "symptom_text",
+          "modality": "text",
+          "data_path_or_content": "Uniform green leaf tissue with no necrotic spots or chlorosis",
+          "reliability_hint": 0.98,
+          "cost": 0.5,
+          "metadata": {
+            "source": "farmer_survey"
+          }
+        },
+        "weather_context": {
+          "evidence_type": "weather_context",
+          "modality": "text",
+          "data_path_or_content": "Optimal growing conditions",
+          "reliability_hint": 0.92,
+          "cost": 0.4,
+          "metadata": {
+            "source": "sensor_or_forecast"
+          }
+        }
+      },
+      "source_dataset": "EvidenceGain_Tomato_Benchmark",
+      "license": "CC-BY-4.0",
+      "metadata": {}
+    }
+  ],
+  "created_at": "2026-09-14",
+  "metadata": {
+    "split": "val",
+    "total_cases": 24
+  }
+}

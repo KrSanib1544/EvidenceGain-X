@@ -1,0 +1,84 @@
+{
+  "total_episodes": 22,
+  "classes": [
+    "early_blight",
+    "late_blight",
+    "septoria_leaf_spot",
+    "healthy"
+  ],
+  "results": {
+    "B0_InitialOnly": {
+      "policy_name": "B0_InitialOnly",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.23943081838131713,
+      "mean_entropy_reduction": 0.0,
+      "mean_steps": 0.0,
+      "stopping_rate": 0.6363636363636364,
+      "rejection_count": 0,
+      "contradiction_count": 0
+    },
+    "B1_Random": {
+      "policy_name": "B1_Random",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.15385686201096344,
+      "mean_entropy_reduction": 0.0855739563703537,
+      "mean_steps": 0.6363636363636364,
+      "stopping_rate": 1.0,
+      "rejection_count": 0,
+      "contradiction_count": 5
+    },
+    "B2_FixedOrder": {
+      "policy_name": "B2_FixedOrder",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.16534403035554782,
+      "mean_entropy_reduction": 0.07408678802576932,
+      "mean_steps": 0.6818181818181818,
+      "stopping_rate": 1.0,
+      "rejection_count": 0,
+      "contradiction_count": 6
+    },
+    "B3_ConfidenceDriven": {
+      "policy_name": "B3_ConfidenceDriven",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.23943081838131713,
+      "mean_entropy_reduction": 0.0,
+      "mean_steps": 0.0,
+      "stopping_rate": 0.6363636363636364,
+      "rejection_count": 0,
+      "contradiction_count": 0
+    },
+    "B4_UncertaintyOnly": {
+      "policy_name": "B4_UncertaintyOnly",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.19321350822362796,
+      "mean_entropy_reduction": 0.04621731015768918,
+      "mean_steps": 0.3181818181818182,
+      "stopping_rate": 0.6363636363636364,
+      "rejection_count": 0,
+      "contradiction_count": 0
+    },
+    "B6_EvidenceGainX": {
+      "policy_name": "B6_EvidenceGainX",
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.6666666666666666,
+      "mean_entropy_initial": 0.23943081838131713,
+      "mean_entropy_final": 0.1352308365563989,
+      "mean_entropy_reduction": 0.10419998182491824,
+      "mean_steps": 0.36363636363636365,
+      "stopping_rate": 1.0,
+      "rejection_count": 0,
+      "contradiction_count": 0
+    }
+  },
+  "budget_curve": {}
+}

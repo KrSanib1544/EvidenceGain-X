@@ -1,0 +1,27 @@
+﻿# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Large model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.onnx

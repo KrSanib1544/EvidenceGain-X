@@ -1,0 +1,32 @@
+{
+  "Full_EvidenceGainX": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.36363636363636365
+  },
+  "No_HypothesisSeparation (alpha=0)": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.36363636363636365
+  },
+  "No_UncertaintyReduction (beta=0)": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.36363636363636365
+  },
+  "No_DiagnosticImprovement (gamma=0)": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.36363636363636365
+  },
+  "No_CostPenalty (lambda=0)": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.4090909090909091
+  },
+  "No_RiskPenalty (mu=0)": {
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6666666666666666,
+    "mean_steps": 0.36363636363636365
+  }
+}
